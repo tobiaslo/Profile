@@ -1,7 +1,7 @@
 ---
 title: "Multi Map Visual Localization for Unmanned Aerial Vehicles" 
 date: 2024-12-16
-url: /paper/
+url: /paper/mmvl
 aliases: 
     - /old_url.html
 tags: ["UAV", "Absolute visual localization", "localization", "Monte Carlo localization", "CNN"]

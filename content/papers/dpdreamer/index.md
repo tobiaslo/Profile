@@ -1,7 +1,7 @@
 ---
 title: "Dual Process Dreamer: Fast and slow decision-making with world models" 
 date: 2025-12-01
-url: /paper/
+url: /paper/dpdreamer
 aliases: 
     - /old_url.html
 tags: ["Reinforcement Learning", "Dual Process Theory", "Thinking fast and slow", "Model-based RL"]
@@ -58,6 +58,3 @@ year = {Year}}
 
 ---
 
-##### Related material
-
-+ [Presentation slides](presentation.pdf)

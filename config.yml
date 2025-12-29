@@ -1,0 +1,114 @@
+baseURL: "https://pascalmichaillat.org/hugo-website/" 
+title: Tobias Lømo
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
+        - name: Papers
+          url: papers/
+          weight: 6
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
+
+params:
+    description: "This is the website of Tobias Lømo, covering the academic adventure with published work and other interesting things along the way."
+    author: Tobias Lømo
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: dark
+    hideFooter: true
+    disableThemeToggle: false
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: [papers]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    customCSS:
+      - "css/extended/center-home.css"
+    profileMode:
+          enabled: true
+          title: Tobias Lømo
+          subtitle: "I am a PhD fellow at Centre for Interdisciplinary Studies in Rhythm, Time and Motion (RITMO) at Univerity of Oslo. My research draws inspiration from human psychology to develop smarter and more adaptable robots. Specifically I explore how robotics, deep learning, and reinforcement learning can be combined in novel ways, with a focus on creating integrated systems that improve robot performance and flexibility. If I am not in front of the computer you will probabily find me with a pair of running shoes somewhere in closest forest or mountain."
+          imageUrl: "tobiaslo1600.jpg"
+          imageWidth: 240
+          imageHeight: 240
+          buttons:
+            - name: Papers
+              url: papers/
+            # - name: Data
+            #   url: data/
+            # - name: Books
+            #   url: books/
+            # - name: Courses
+            #   url: courses/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+    socialIcons:
+        # - name: CV
+        #   url: cv.pdf
+        - name: Email
+          url: mailto:tobiaslo@uio.no
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=VadU_rEAAAAJ&hl=no&oi=ao
+        - name: GitHub
+          url: https://github.com/tobiaslo
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/tobias-lømo-97ba8519b/
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Tobias Lømo"
+      icon: "tobiaslo1600.jpg"
+      iconHeight: 35
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

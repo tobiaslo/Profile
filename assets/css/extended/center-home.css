@@ -1,0 +1,39 @@
+.main .profile {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main .profile .profile_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* .main .profile .social-icons { */
+  /* display: flex; */
+  /* justify-content: center; */
+/* } */
+
+.main .profile .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.header .nav .logo img {
+  border-radius: 50%;
+  transform: scale(1.3);
+}
+
+/* .header { */
+  /* padding: 1.5rem; */
+/* } */
+
+.header .nav {
+  font-size: 1rem;
+  padding: 0.6rem;
+  text-align: center;
+}
+

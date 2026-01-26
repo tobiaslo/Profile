@@ -1,12 +1,12 @@
 ---
+draft: true
 title: "Dual Process Dreamer: Fast and slow decision-making with world models" 
 date: 2026-03-01
 url: /paper/dpdreamer
-draft: true
 tags: ["Reinforcement Learning", "Dual Process Theory", "Thinking fast and slow", "Model-based RL"]
 author: ["Tobias Lømo", "Adel Baselizadeh", "Kai Olav Ellefsen", "Jim Torresen"]
 description: "Paper description for search engines (less than 155 characters)" 
-summary: "Paper summary for list page (less than 265 characters)"
+summary: "Proposal of DPDreamer, a novel approach of a 'Dual Process Theory' system combining planning, neural networks and learned world models."
 cover:
     image: "DPDreamer.png"
     alt: "Figure title (preferably 1280x720 pixels)"
@@ -21,9 +21,8 @@ editPost:
 
 ##### Download:
 
-- [Paper](paper.pdf)
-- [Online appendix](appendix.pdf)
-- [Code and data](https://github.com/paper_repo)
+- [Paper]()
+- [Github]()
 
 ---
 

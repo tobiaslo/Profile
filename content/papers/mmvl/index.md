@@ -33,7 +33,7 @@ Localization has long been an essential area of research within robotics. The po
 
 ##### Figure X:  Figure title
 
-![](System.pdf)
+![](System.png)
 
 ---
 

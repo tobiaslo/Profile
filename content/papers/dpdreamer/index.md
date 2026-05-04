@@ -51,18 +51,20 @@ Tested on the puzzle game Sokoban, DPDreamer achieved a solve rate of around 90�
 
 ##### Citation
 
-Author 1, Author 2. Year. "Title." *Journal* Volume (Issue): First page–Last page. https://doi.org/paper_doi.
+Lømo, T.; Baselizadeh, A.; Ellefsen, K. O. and Torresen, J. (2026). Dual Process Dreamer: Fast and Slow Decision-Making with World Models.  In Proceedings of the 18th International Conference on Agents and Artificial Intelligence - Volume 2, ISBN 978-989-758-796-2, ISSN 2184-433X, pages 1230-1241.  DOI: 10.5220/0014243200004052
 
 ```BibTeX
-@article{AAYY,
-author = {Author 1 and Author 2},
-doi = {paper_doi},
-journal = {Journal},
-number = {Issue},
-pages = {XXX--YYY},
-title = {Title},
-volume = {Volume},
-year = {Year}}
+@inproceedings{lomo2026dual,
+  author    = {Lømo, T. and Baselizadeh, A. and Ellefsen, K. O. and Torresen, J.},
+  title     = {Dual Process Dreamer: Fast and Slow Decision-Making with World Models},
+  booktitle = {Proceedings of the 18th International Conference on Agents and Artificial Intelligence},
+  volume    = {2},
+  pages     = {1230--1241},
+  year      = {2026},
+  isbn      = {978-989-758-796-2},
+  issn      = {2184-433X},
+  doi       = {10.5220/0014243200004052}
+}
 ```
 
 ---

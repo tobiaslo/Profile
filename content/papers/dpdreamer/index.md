@@ -26,6 +26,8 @@ editPost:
 
 ---
 
+![](DPDreamer.png)
+
 ##### TLDR
 
 DPDreamer is a reinforcement learning architecture inspired by dual process theory (DPT) from cognitive psychology. The idea is that humans have two different thinking methods, one is intuitive and efficient, called System 1, and the other is slow and deliberate reasoning, called System 2. Depending on the situation, we can switch seamlessly between them.
@@ -38,9 +40,12 @@ Tested on the puzzle game Sokoban, DPDreamer achieved a solve rate of around 90â
 
 ---
 
-##### Figure X:  Figure title
+##### Results
 
-![](DPDreamer.png)
+<div style="display:flex; gap:1rem;">
+  <img src="res_time.png" style="width:50%;">
+  <img src="res_perf.png" style="width:50%;">
+</div>
 
 ---
 

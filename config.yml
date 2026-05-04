@@ -57,7 +57,7 @@ params:
     profileMode:
           enabled: true
           title: Tobias Lømo
-          subtitle: "I am a PhD fellow at Centre for Interdisciplinary Studies in Rhythm, Time and Motion (RITMO) at Univerity of Oslo. My research draws inspiration from human psychology to develop smarter and more adaptable robots. Specifically I explore how robotics, deep learning, and reinforcement learning can be combined in novel ways, with a focus on creating integrated systems that improve robot performance and flexibility. If I am not in front of the computer you will probabily find me with a pair of running shoes somewhere in closest forest or mountain."
+          subtitle: "I am a PhD fellow at the Centre for Interdisciplinary Studies in Rhythm, Time and Motion (RITMO) at the University of Oslo. My research takes inspiration from human psychology to develop smarter and more adaptable robots. Specifically, I explore how robotics, deep learning, and reinforcement learning can be combined in novel ways, with a focus on creating integrated systems that improve robot performance and flexibility. If I am not in front of the computer, you will probably find me with a pair of running shoes somewhere in the closest forest or mountain."
           imageUrl: "tobiaslo1600.jpg"
           imageWidth: 240
           imageHeight: 240

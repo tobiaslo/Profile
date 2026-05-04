@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Dual Process Dreamer: Fast and slow decision-making with world models" 
 date: 2026-03-01
 url: /paper/dpdreamer
@@ -9,7 +9,7 @@ description: "Paper description for search engines (less than 155 characters)"
 summary: "Proposal of DPDreamer, a novel approach of a 'Dual Process Theory' system combining planning, neural networks and learned world models."
 cover:
     image: "DPDreamer.png"
-    alt: "Figure title (preferably 1280x720 pixels)"
+    alt: "Figure of the general architecture"
     relative: true
 editPost:
     URL: "https://doi.org/paper_doi"
@@ -21,14 +21,20 @@ editPost:
 
 ##### Download:
 
-- [Paper]()
-- [Github]()
+- [Paper](https://www.scitepress.org/Papers/2026/142432/142432.pdf)
+- [Github](https://github.com/tobiaslo/DPDreamer)
 
 ---
 
-##### Abstract:
+##### TLDR
 
-Most robot systems are based on a single decision-making process. This process needs to balance time, energy, and accuracy in every situation. However, according to "dual process theory" from cognitive psychology, this is not how humans work. Depending on the situation, we have the ability to switch between two thinking methods, a fast system 1 (S1) and a slower system 2 (S2). In this paper, we propose a novel approach to a dual process architecture for robots and agents. Our method, called Dual Process Dreamer (DPDreamer), is a combination of a reinforcement learning policy network, a planning algorithm, and a learned world model. The world model allows the parts of DPDreamer to work together and create a more integrated system compared to previous proposals. DPDreamer was tested in a puzzle game called Sokoban, and by balancing the use of S1 and S2, DPDreamer managed a success rate similar to S2 while using S1 most of the time, showing a significant benefit of using a more adaptable system.
+DPDreamer is a reinforcement learning architecture inspired by dual process theory (DPT) from cognitive psychology. The idea is that humans have two different thinking methods, one is intuitive and efficient, called System 1, and the other is slow and deliberate reasoning, called System 2. Depending on the situation, we can switch seamlessly between them.
+
+Most AI agents rely on a single decision-making process, forcing a fixed tradeoff between speed and accuracy. DPDreamer addresses this by combining two systems: a fast RL policy network (System 1) for quick, efficient decisions, and a Monte Carlo Tree Search planning algorithm (System 2) for more careful, deliberate reasoning. These two systems are integrated together with a learned world model trained on the environment dynamics.
+
+A "meta-agent" decides whether to use S1 or S2. In this paper, the meta-agent is trying to answer the question: “Is S1 able to solve the rest of the episode?” Depending on the answer, either S1 or S2 was chosen for the next step. We implemented two different versions, one rollout-based and one classifier based.
+
+Tested on the puzzle game Sokoban, DPDreamer achieved a solve rate of around 90–92% — comparable to using the slow planner alone (92%) — while using the fast system over 70–85% of the time. This also translated to meaningful reductions in computation time on most boards. The meta-agents displayed human-like switching patterns, tending to use S2 at the start of complex puzzles before handing off to S1 once the situation became clearer.
 
 ---
 
